@@ -1,0 +1,67 @@
+.card-container {
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+
+.card_inline {
+    padding: 10px;
+    text-align: center;
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: 215px;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 3px;
+  }
+.tblRow {
+    background: #ff0000;
+  }
+  .buttonn{
+    border: none;
+    color: white;
+    background-color: #351ee0;
+    /* color: white; */
+    padding: 11px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+  }
+
+  .deletebtn{
+    border: none;
+    color: white;
+    background-color: #e01e1e;
+    /* color: white; */
+    padding: 11px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+  }
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    margin-top: 50px;
+    /* top: 150px; */
+    margin-left: 70px;
+    /* position: fixed; */
+    /* overflow: scroll; */
+  }
