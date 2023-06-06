@@ -10,7 +10,7 @@ function Calc() {
     }
 
     function Calculate() {
-        setOutput(eval(input));
+        setOutput(input);
     }
     function Clear() {
         setInput("");

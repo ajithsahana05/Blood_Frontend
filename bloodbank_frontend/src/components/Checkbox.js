@@ -19,10 +19,10 @@ function handleCheckboxEatChange(event) {
         }
         setJsonData(JObject);
     } else {
-        for (var i=0; i<JObject.length; i++) 
+        for (var ii=0; ii<JObject.length; ii++) 
         {
-              if (JObject[i].name === value) {
-                JObject[i].check = "false";
+              if (JObject[ii].name === value) {
+                JObject[ii].check = "false";
                 break;
               }
               

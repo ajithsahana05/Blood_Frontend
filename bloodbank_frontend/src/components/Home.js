@@ -1,5 +1,5 @@
 import React from "react";
-import { useState,useEffect } from "react";
+import { useState } from "react";
 import moment from 'moment';
 
 function Home(sometext){
@@ -49,9 +49,9 @@ function Home(sometext){
       setFontSize(fontSize - 2);
     };
 
-useEffect(()=> {
-  console.log(sometext);     
-},[]);
+// useEffect(()=> {
+//   console.log(sometext);     
+// },[]);
 
 const HandlePrint = () => {
   window.print();

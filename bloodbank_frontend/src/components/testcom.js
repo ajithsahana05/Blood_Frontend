@@ -2,7 +2,7 @@
 import React,{useState,useEffect} from 'react'
 import './stylesheet.css';
 import Loader from './Loader';
-import Home from './Home';
+// import Home from './Home';
 import axios from 'axios';
 function Testcom() {
   const [phn,setPhone] = useState('');
@@ -28,15 +28,15 @@ function Testcom() {
     setValue(event.target.value);
   }
  
-    const DataShare = "Data sample test";
+    // const DataShare = "Data sample test";
     const [sample,setSample] = useState('');
-    const [sample1,setSample1] = useState();
+    // const [sample1,setSample1] = useState();
     const [isLoading, setIsLoading] = useState(true);
     const [isChecked, setIsChecked] = useState(false);
-    const [name, setName] = useState('');
+    // const [name, setName] = useState('');
     const [suggestion,setSuggestions] = useState('');
 
-    
+    console.log(suggestion);
     useEffect(() => {
 
       setTimeout(() => {
