@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include,path
-from customer import views 
+# from customer import views 
 from rest_framework import routers
 from krida.views import ProfileSignup
 from django.conf.urls.static import static
