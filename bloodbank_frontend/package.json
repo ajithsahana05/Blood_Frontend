@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -28,7 +29,7 @@
   },
   "scripts": {
     
-    "start": "PORT=4110 react-scripts start",
+    "start": "PORT=4100 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
